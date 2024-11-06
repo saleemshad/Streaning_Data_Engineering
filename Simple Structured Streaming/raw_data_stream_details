@@ -1,0 +1,37 @@
+{
+  "id" : "5822cb44-5726-45f8-a6b1-9690399f08d6",
+  "runId" : "b115b2d7-bd15-44d1-aba7-6a5d41effa6c",
+  "name" : null,
+  "timestamp" : "2024-11-05T15:53:57.184Z",
+  "batchId" : 0,
+  "batchDuration" : 5485,
+  "numInputRows" : 4100,
+  "inputRowsPerSecond" : 0.0,
+  "processedRowsPerSecond" : 747.4931631722881,
+  "durationMs" : {
+    "addBatch" : 2372,
+    "commitBatch" : 1526,
+    "commitOffsets" : 319,
+    "getBatch" : 78,
+    "latestOffset" : 327,
+    "queryPlanning" : 141,
+    "triggerExecution" : 5477,
+    "walCommit" : 248
+  },
+  "stateOperators" : [ ],
+  "sources" : [ {
+    "description" : "FileStreamSource[dbfs:/mnt/userspace/custom_dataset/saleem.shad/Streaming_data_use_case/raw]",
+    "startOffset" : null,
+    "endOffset" : {
+      "logOffset" : 0
+    },
+    "latestOffset" : null,
+    "numInputRows" : 4100,
+    "inputRowsPerSecond" : 0.0,
+    "processedRowsPerSecond" : 747.4931631722881
+  } ],
+  "sink" : {
+    "description" : "DeltaSink[/mnt/userspace/custom_dataset/saleem.shad/Streaming_data_use_case/processed]",
+    "numOutputRows" : -1
+  }
+}
