@@ -8,5 +8,5 @@ This project does not cover how to setup ADLS Gen2 or create mount point you nee
 Lets focus on creating a simple structured straming data pipeline
 Steps:
 1. create directory structure in Azure ADLS Gen2
-   !over_directory_structure.png
+   !Simple Structured Streaming/over_directory_structure.png
 
